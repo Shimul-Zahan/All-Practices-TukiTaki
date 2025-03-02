@@ -34,15 +34,25 @@ else:
     transformed_image3 = brightness_transformer(image=cropped_image)['image']
     
     # Plotting both images: original and cropped
-    plt.figure(figsize=(10, 5))
-    plt.subplot(1, 2, 1)
+    plt.figure(figsize=(16, 8))
+    plt.subplot(2, 3, 1)
     plt.imshow(cropped_image)
     plt.axis('off')
     plt.title('cropped_image')
     
-    plt.subplot(1, 2, 2)
-    plt.imshow(transformed_image)
+    plt.subplot(2, 3, 2)
+    plt.imshow(transformed_image1)
     plt.axis('off')
-    plt.title('Transformed (Random Brightness) Image')
+    plt.title('Transformed (Random Brightness) Image 1')
+    
+    plt.subplot(2, 3, 3)
+    plt.imshow(transformed_image2)
+    plt.axis('off')
+    plt.title('Transformed (Random Brightness) Image 2')
+    
+    plt.subplot(2, 3, 4)
+    plt.imshow(transformed_image3)
+    plt.axis('off')
+    plt.title('Transformed (Random Brightness) Image 3')
     
     plt.show()

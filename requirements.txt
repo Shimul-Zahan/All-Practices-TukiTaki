@@ -3,5 +3,7 @@ torch
 torchvision
 numpy
 opencv-python
+# cv2
+matplotlib
 # albumentations
 # efficientnet_pytorch
