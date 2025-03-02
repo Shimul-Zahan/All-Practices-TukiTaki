@@ -1,0 +1,7 @@
+albumentations
+torch
+torchvision
+numpy
+opencv-python
+# albumentations
+# efficientnet_pytorch
